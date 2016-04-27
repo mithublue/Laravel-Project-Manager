@@ -1,7 +1,11 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: mithu_000
- * Date: 4/21/2016
- * Time: 8:21 AM
- */ 
+@extends('admin.default')
+@section('content')
+<div class="row">
+    {{ Form::model( $project , array( 'url' => route( 'admin.projects.update', $project->id ) ) ) }}
+    @include('admin.project._form')
+    <div class="col-sm-12 form-group">
+        {{ Form::submit('Update', array('class'=> 'btn btn-primary')) }}
+    </div>
+    {{ Form::close() }}
+</div>
+@stop

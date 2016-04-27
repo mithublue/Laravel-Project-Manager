@@ -8,7 +8,7 @@ class Project extends Model
 {
 
     protected $fillable = array(
-
+        'title', 'description', 'start_date', 'end_date', 'est_time', 'status',
     );
 
     /**
@@ -39,8 +39,8 @@ class Project extends Model
      * Belongs to many users
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function users(){
-        return $this->belongsToMany('App\User');
+    public function user(){
+        return $this->belongsTo('App\User');
     }
 
     /**
