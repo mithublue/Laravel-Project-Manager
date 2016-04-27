@@ -11,6 +11,31 @@
 |
 */
 
+// Authentication routes...
+Route::get('login', array(
+    'as' => 'login',
+    'uses' => 'Auth\AuthController@getLogin'
+));
+Route::post('login', array(
+    'as' => 'postLogin',
+    'uses' => 'Auth\AuthController@postLogin'
+));
+Route::get('logout', array(
+    'as' => 'logout',
+    'uses' => 'Auth\AuthController@getLogout'
+));
+
+// Registration routes...
+Route::get('auth/register', array(
+    'as' => 'register',
+    'uses' => 'Auth\AuthController@getRegister'
+));
+Route::post('auth/register', array(
+    'as' => 'postRegister',
+    'uses' => 'Auth\AuthController@postRegister'
+));
+
+
 Route::get('/', function () {
     return view('public.index');
 });

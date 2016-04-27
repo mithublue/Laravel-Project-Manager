@@ -53,7 +53,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Krypton Project Manager</a>
+                <a class="navbar-brand" href="index.html">Krypton</a>
             </div>
             <!-- /.navbar-header -->
 
