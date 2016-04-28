@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\createUserRequest;
+use App\Client;
 use App\Project;
+use App\User;
 use Illuminate\Http\Request;
 use app\custom\project_stuff;
 
@@ -34,9 +35,13 @@ class projectController extends Controller
     {
         if( !current_user_can('can_create_projects') ) return;
 
+        $clients = Client::lists('name','id');
+        $assignees = User::lists('first_name', 'id');
         $statuses = project_stuff::get_status_options();
         return view('admin.project.create')
-            ->with( 'statuses', $statuses );
+            ->with( 'statuses', $statuses )
+            ->with('clients',$clients)
+            ->with('assignees',$assignees);
     }
 
     /**
@@ -48,8 +53,10 @@ class projectController extends Controller
     public function store(createProjectRequest $request)
     {
         $project = Project::create($request->all());
+        $project->assignees()->sync($request->user_id);
         $project->user()->associate(get_current_user_id());
         $project->save();
+
         return redirect()->route('admin.projects.index');
     }
 
@@ -76,11 +83,22 @@ class projectController extends Controller
     {
         if( !current_user_can('can_edit_projects') ) return;
 
+        $clients = Client::lists('name','id');
+        $assignees = User::lists('first_name', 'id');
         $project = Project::find($id);
+
+        $project->assignees = json_decode($project->assignees);
+        $project->assignees = array_map(function($item) {
+            return $item->id;
+        }, $project->assignees);
+
         $statuses = project_stuff::get_status_options();
+
         return view('admin.project.edit')
             ->with( 'project', $project )
-            ->with( 'statuses', $statuses );
+            ->with( 'statuses', $statuses )
+            ->with('clients',$clients)
+            ->with('assignees',$assignees);
     }
 
     /**
@@ -92,7 +110,13 @@ class projectController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $project = Project::find($id);
+        $project->update($request->all());
+        $project->assignees()->sync($request->user_id);
+        $project->user()->associate(get_current_user_id());
+        $project->save();
+
+        return redirect()->route('admin.projects.edit',$id);
     }
 
     /**
@@ -103,6 +127,7 @@ class projectController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Project::destroy($id);
+        return redirect()->route('admin.projects.index');
     }
 }

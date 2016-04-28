@@ -8,9 +8,24 @@ class Project extends Model
 {
 
     protected $fillable = array(
-        'title', 'description', 'start_date', 'end_date', 'est_time', 'status',
+        'title', 'description', 'start_date', 'end_date', 'est_time', 'status', 'client_id'
     );
 
+    /**
+     * has a client
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function client(){
+        return $this->belongsTo('App\Client');
+    }
+
+    /**
+     * a project has many assignees
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function assignees(){
+        return $this->belongsToMany('App\User','project_users','project_id','user_id')->withTimestamps();
+    }
     /**
      * has many tasklist
      * @return \Illuminate\Database\Eloquent\Relations\HasMany

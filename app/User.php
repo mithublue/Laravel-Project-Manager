@@ -33,6 +33,14 @@ class User extends Authenticatable
     }
 
     /**
+     * a project has many assignees
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function assigned_projects(){
+        return $this->belongsToMany('App\Project','project_users','user_id','project_id')->withTimestamps();
+    }
+
+    /**
      * Has many tasklists
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */

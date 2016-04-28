@@ -13,14 +13,15 @@
                                 <p>{{ $project->description }}</p>
                             </div>
                             <div class="panel-footer">
-                                {{ ucfirst($project->status) }}
-                                @if( current_user_can('can_view_projects') )
-                                    <span class="right"><a href="{{ route('admin.projects.show', $project->id) }}">View</a></span>
-                                @endif
-                                @if( current_user_can('can_edit_projects') )
-                                    <span class="right"><a href="{{ route('admin.projects.edit', $project->id) }}">Edit</a></span>
-                                @endif
+                                @if( current_user_can('can_delete_projects') )
 
+                                        <span class="btn btn-default">{{ ucfirst($project->status) }}</span>
+                                        <a class="btn btn-success" type="submit" href="{{ route('admin.projects.show',$project->id) }}">View</a>
+                                        <a class="btn btn-default" type="submit" href="{{ route('admin.projects.edit',$project->id) }}">Edit</a>
+                                        {{ Form::open(array( 'url' => route( 'admin.projects.destroy', array('id' => $project->id) ), 'method' => 'DELETE', 'class' => 'dinline' )) }}
+                                            {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
+                                        {{ Form::close() }}
+                                @endif
                             </div>
                         </div>
                     </div>
