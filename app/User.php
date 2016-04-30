@@ -49,11 +49,27 @@ class User extends Authenticatable
     }
 
     /**
+     * Has many tasklists
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function assigned_tasklists(){
+        return $this->belongsToMany('App\Tasklist')->withTimestamps();
+    }
+
+    /**
      * has many tasks (an user creates many tasks)
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function tasks(){
         return $this->hasMany('App\Task');
+    }
+
+    /**
+     * has many tasks (an user creates many tasks)
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function assigned_tasks(){
+        return $this->belongsToMany('App\Task')->withTimestamps();
     }
 
     /**
@@ -102,5 +118,13 @@ class User extends Authenticatable
      */
     public function modules(){
         return $this->hasMany('App\Module');
+    }
+
+    /**
+     * Belongs to a assigned_user
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function assigned_modules(){
+        return $this->belongsToMany('App\Module')->withTimestamps();
     }
 }

@@ -6,7 +6,7 @@ use App\Client;
 use App\Project;
 use App\User;
 use Illuminate\Http\Request;
-use app\custom\project_stuff;
+use app\custom\common_stuff;
 
 use App\Http\Requests\createProjectRequest;
 
@@ -37,7 +37,7 @@ class projectController extends Controller
 
         $clients = Client::lists('name','id');
         $assignees = User::lists('first_name', 'id');
-        $statuses = project_stuff::get_status_options();
+        $statuses = common_stuff::get_status_options();
         return view('admin.project.create')
             ->with( 'statuses', $statuses )
             ->with('clients',$clients)
@@ -92,7 +92,7 @@ class projectController extends Controller
             return $item->id;
         }, $project->assignees);
 
-        $statuses = project_stuff::get_status_options();
+        $statuses = common_stuff::get_status_options();
 
         return view('admin.project.edit')
             ->with( 'project', $project )

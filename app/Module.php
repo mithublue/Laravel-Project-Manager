@@ -6,6 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Module extends Model
 {
+    protected $fillable = array(
+        'title', 'description','start_date','end_date','est_time','status','project_id','parent'
+    );
+
+    //user_id will be saved in module_user table manually
     //
     /**
      * Belongs to a project
@@ -21,6 +26,22 @@ class Module extends Model
      */
     public function user(){
         return $this->belongsTo('App\User');
+    }
+
+    /**
+     * Belongs to a assigned_user
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function assigned_users(){
+        return $this->belongsToMany('App\User')->withTimestamps();
+    }
+
+    /**
+     * has many tasks
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function tasks(){
+        return $this->hasMany('App\Task');
     }
 
     /**

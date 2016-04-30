@@ -25,7 +25,9 @@
         },
         "files" : [
             "app/custom/functions.php",
-            "app/custom/project-stuffs.php"
+            "app/custom/common-stuffs.php",
+            "app/custom/project-stuffs.php",
+            "app/custom/module-stuffs.php"
         ]
     },
     "autoload-dev": {

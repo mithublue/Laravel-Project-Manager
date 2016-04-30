@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Tasklist extends Model
 {
     //
+    protected $fillable =  array(
+        'title', 'description', 'project_id', 'module_id', 'start_date' , 'end_date' , 'est_time', 'parent' , 'status'
+    );
 
     /**
      * Belongs to a project
@@ -36,8 +39,16 @@ class Tasklist extends Model
      * belongs to a user
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
-    public function users(){
+    public function user(){
         return $this->belongsTo('App\User');
+    }
+
+    /**
+     * belongs to a user
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function assigned_users(){
+        return $this->belongsToMany('App\User')->withTimestamps();
     }
 
     /**

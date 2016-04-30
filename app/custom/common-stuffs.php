@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mithu_000
- * Date: 4/29/2016
- * Time: 12:26 PM
- */ 
+namespace app\custom;
+
+class common_stuff{
+
+    public static function get_status_options() {
+        return array(
+            'completed' => 'Completed',
+            'running' => 'Running',
+            'paused' => 'Paused',
+            'pending' => 'Pending'
+        );
+    }
+}

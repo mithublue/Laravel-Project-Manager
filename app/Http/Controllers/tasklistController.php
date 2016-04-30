@@ -2,9 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Project;
+use App\Tasklist;
+use App\Module;
+use App\User;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use app\custom\common_stuff;
 
 class tasklistController extends Controller
 {
@@ -13,9 +18,20 @@ class tasklistController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index( $project_id = null )
     {
-        //
+        if(  $project_id ) {
+            $tasklists = Tasklist::where('project_id',$project_id)->get();
+        } else {
+            $tasklists = Tasklist::all();
+        }
+
+        return view( 'admin.tasklist.index',compact('tasklists') );
+    }
+
+    public function module_tasklists( $module_id ) {
+        $tasklists = Tasklist::where('module_id',$module_id)->get();
+        return view( 'admin.tasklist.index',compact('tasklists') );
     }
 
     /**
@@ -23,9 +39,25 @@ class tasklistController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create( $project_id = null, $module_id = null )
     {
-        //
+        $statuses = common_stuff::get_status_options();
+
+        $projects = array('') + Project::lists('title','id')->toArray();
+        $modules = array('') + Module::lists('title','id')->toArray();
+        $tasklists = array('') + Tasklist::lists('title','id')->toArray();
+        $assignees = User::lists('first_name','id');
+
+        return view('admin.tasklist.create',compact( 'statuses', 'projects',
+            'modules','assignees','project_id','tasklists', 'module_id'));
+    }
+
+    /**
+     * create tasklist by module
+     */
+    public function create_by_module( $module_id ) {
+        $project_id = Module::where('id',$module_id)->pluck('project_id')[0];
+        return $this->create( $project_id, $module_id );
     }
 
     /**
@@ -36,7 +68,12 @@ class tasklistController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $taklist = Tasklist::create($request->all());
+        $taklist->assigned_users()->sync($request->user_id);
+        $taklist->user()->associate(get_current_user_id());
+        $taklist->save();
+
+        return redirect()->route('admin.tasklists.index');
     }
 
     /**
@@ -47,7 +84,8 @@ class tasklistController extends Controller
      */
     public function show($id)
     {
-        //
+        $tasklist = Tasklist::find($id);
+        return view('admin.tasklist.single',compact('tasklist'));
     }
 
     /**
@@ -58,7 +96,21 @@ class tasklistController extends Controller
      */
     public function edit($id)
     {
-        //
+        $tasklist = Tasklist::find($id);
+
+        $tasklist->assigned_users = json_decode($tasklist->assigned_users);
+        $tasklist->assigned_users = array_map(function($item) {
+            return $item->id;
+        }, $tasklist->assigned_users);
+        $statuses = common_stuff::get_status_options();
+
+        $projects = array('') + Project::lists('title','id')->toArray();
+        $modules = array('') + Module::lists('title','id')->toArray();
+        $tasklists = array('') + Tasklist::lists('title','id')->toArray();
+        $assignees = User::lists('first_name','id');
+
+        return view('admin.tasklist.edit',compact( 'tasklist', 'statuses', 'projects',
+            'modules','assignees','project_id','tasklists'));
     }
 
     /**
@@ -70,7 +122,13 @@ class tasklistController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $taklist = Tasklist::find($id);
+        $taklist->update($request->all());
+        $taklist->assigned_users()->sync($request->user_id);
+        $taklist->user()->associate(get_current_user_id());
+        $taklist->save();
+
+        return redirect()->route('admin.tasklists.edit',$taklist->id);
     }
 
     /**
@@ -81,6 +139,7 @@ class tasklistController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Tasklist::destroy($id);
+        return redirect()->route('admin.tasklists.index');
     }
 }

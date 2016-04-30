@@ -15,7 +15,10 @@ class CreateModulesTable extends Migration
         Schema::create('modules', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
-            $table->integer('project_id');
+
+            $table->integer('project_id')->unsigned()->index();
+            $table->foreign('project_id')->references('id')->on('projects');
+
             $table->integer('parent');
             $table->timestamps();
         });

@@ -6,7 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
-    //
+
+    protected $fillable = array(
+        'title' , 'description', 'project_id', 'module_id', 'tasklist_id', 'parent', 'start_date', 'end_date', 'est_time', 'status'
+    );
     /**
      * Belongs to a project
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
@@ -29,6 +32,14 @@ class Task extends Model
      */
     public function user(){
         return $this->belongsTo('App\User');
+    }
+
+    /**
+     * has many assigned users
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function assigned_users(){
+        return $this->belongsToMany('App\User')->withTimestamps();
     }
 
     /**

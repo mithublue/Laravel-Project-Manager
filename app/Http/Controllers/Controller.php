@@ -10,7 +10,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesResources;
 
 class Controller extends BaseController
 {
-    protected $caps;
+    protected $caps, $privacy, $type, $status;
 
     public function __construct() {
         $this->caps = array(
