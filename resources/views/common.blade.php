@@ -12,7 +12,8 @@
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
 
-    <link href="{{asset('public/bower_components/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    {{--<link href="{{asset('public/bower_components/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">--}}
+    <link href="{{asset('public/css/materialize.min.css') }}" rel="stylesheet">
     @yield('header_scripts')
     <!--framework.css-->
     <link href="{!! asset('framework.css') !!}" rel="stylesheet" type="text/css">
@@ -34,6 +35,12 @@
     </div>
         <!-- /#wrapper -->
 
+    <!-- jQuery -->
+    <script src="{!! asset('admin/bower_components/jquery/dist/jquery.min.js') !!}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    {{--<script src="{!! asset('admin/bower_components/bootstrap/dist/js/bootstrap.min.js') !!}"></script>--}}
+        <script src="{!! asset('public/js/materialize.min.js') !!}"></script>
         @yield('footer_scripts')
 
     </body>
