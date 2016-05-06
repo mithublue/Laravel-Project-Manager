@@ -14,11 +14,11 @@
 // Authentication routes...
 Route::get('login', array(
     'as' => 'login',
-    'uses' => 'Auth\AuthController@getLogin'
+    'uses' => 'Auth\CustomAuthController@getLogin'
 ));
 Route::post('login', array(
     'as' => 'postLogin',
-    'uses' => 'Auth\AuthController@postLogin'
+    'uses' => 'Auth\CustomAuthController@postLogin'
 ));
 Route::get('logout', array(
     'as' => 'logout',
@@ -36,11 +36,12 @@ Route::post('auth/register', array(
 ));
 
 
+
 Route::get('/', function () {
     return view('public.index');
 });
 
-Route::group( array( 'prefix' => 'admin' ),function(){
+Route::group( array( 'prefix' => 'admin'/*, 'middleware' => 'auth'*/ ),function(){
     Route::resource('projects','projectController' );
 
     /**modules**/
@@ -110,12 +111,32 @@ Route::group( array( 'prefix' => 'admin' ),function(){
         'uses' => 'taskController@create_by_tasklist'
     ));
 
+    /**tickets**/
+    Route::resource('tickets','ticketController' );
+    //by project
+    Route::get('project/{project_id}/tickets',array(
+        'as' => 'admin.tickets.project_tickets',
+        'uses' => 'ticketController@index'
+    ));
+    Route::get('project/{project_id}/tickets/create',array(
+        'as' => 'admin.tickets.create_project_tickets',
+        'uses' => 'ticketController@create'
+    ));
+    //by module
+    Route::get('module/{module_id}/tickets',array(
+        'as' => 'admin.tickets.module_tickets',
+        'uses' => 'ticketController@module_tickets'
+    ));
+    Route::get('module/{module_id}/tickets/create',array(
+        'as' => 'admin.tickets.create_module_tickets',
+        'uses' => 'ticketController@create_by_module'
+    ));
+
     Route::resource('categories','categoryController' );
     Route::resource('users','userController' );
     Route::resource('comments','commentController' );
     Route::resource('roles','roleController' );
     Route::resource('caps','capsController');
-    Route::resource('tickets','ticketController' );
     Route::resource('files','fileController' );
     Route::resource('tags','tagController' );
 

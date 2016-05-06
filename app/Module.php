@@ -51,4 +51,12 @@ class Module extends Model
     public function comments(){
         return $this->hasMany('App\Comment');
     }
+
+    /**
+     * has many tickets
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function tickets(){
+        return $this->hasMany('App\Ticket');
+    }
 }

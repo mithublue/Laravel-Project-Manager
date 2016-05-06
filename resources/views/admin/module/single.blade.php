@@ -12,6 +12,9 @@
                             <a class="btn btn-warning" href="{{ route('admin.modules.project_modules',$module->id) }}">View Tasks</a>
                             <a class="btn btn-success" href="{{ route('admin.modules.create_project_modules',$module->id) }}">Creae Task</a>
 
+                            <a class="btn btn-warning" href="{{ route('admin.tickets.module_tickets',$module->id) }}">View Tickets</a>
+                            <a class="btn btn-info" href="{{ route('admin.tickets.create_module_tickets',$module->id) }}">Create Ticket</a>
+
                             {{ Form::open(array( 'url' => route('admin.modules.destroy',$module->id), 'method' => 'DELETE', 'class' => 'dinline' )) }}
                             <button class="btn btn-danger" href="{{ route('admin.modules.destroy',$module->id) }}">Delete This Module</button>
                             {{ Form::close() }}

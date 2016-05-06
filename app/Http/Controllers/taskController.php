@@ -103,7 +103,8 @@ class taskController extends Controller
      */
     public function show($id)
     {
-        //
+        $task = Task::find($id);
+        return view('admin.task.single',compact('task'));
     }
 
     /**
@@ -157,6 +158,7 @@ class taskController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Task::destroy($id);
+        return redirect()->route('admin.tasks.index');
     }
 }

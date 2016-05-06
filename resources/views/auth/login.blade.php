@@ -1,10 +1,10 @@
 <!-- resources/views/auth/login.blade.php -->
 
-@extends('admin.default')
+@extends('common')
 
-@section('content')
+@section('site_content')
     <div class="container">
-        <div class="panel panel-default">
+        <div class="panel panel-default mt50">
             <div class="panel-heading">
                 Login
             </div>
@@ -13,10 +13,10 @@
                     {{ Form::open(array( 'route' => 'postLogin', 'method' => 'POST' ) ) }}
                     {!! csrf_field() !!}
                     <div class="col-sm-3 form-group">
-                        {{ Form::label('email', 'Email') }}
+                        {{ Form::label('username', 'Email') }}
                     </div>
                     <div class="col-sm-9 form-group">
-                        {{ Form::email('email', old('email'), array( 'class' => 'form-control', 'placeholder' => 'Email Address' ) ) }}
+                        {{ Form::text('username', old('email'), array( 'class' => 'form-control', 'placeholder' => 'Email Address' ) ) }}
                     </div>
                     <div class="col-sm-3 form-group">
                         {{ Form::label('password', 'Password') }}

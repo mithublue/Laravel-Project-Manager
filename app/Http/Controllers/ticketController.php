@@ -2,6 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use app\custom\common_stuff;
+use app\custom\ticket_stuff;
+use App\Module;
+use App\Project;
+use App\Ticket;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -13,19 +18,50 @@ class ticketController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index( $project_id = null )
     {
-        //
+        if(  $project_id ) {
+            $tickets = Ticket::where('project_id',$project_id)->get();
+        } else {
+            $tickets = Ticket::all();
+        }
+
+        return view( 'admin.ticket.index',compact('tickets') );
     }
+
+    public function module_tickets( $module_id ) {
+        $tickets = Ticket::where('module_id',$module_id)->get();
+        return view( 'admin.ticket.index',compact('tickets') );
+    }
+
 
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create( $project_id = null , $module_id = null )
     {
-        //
+        $statuses = common_stuff::get_status_options();
+        $priorities = common_stuff::get_priority_options();
+        $types = ticket_stuff::get_type_options();
+        $privacies = ticket_stuff::get_privacy_options();
+
+
+        $projects = array('') + Project::lists('title','id')->toArray();
+        $modules = array('') + Module::lists('title','id')->toArray();
+
+        return view('admin.ticket.create',compact( 'project_id', 'module_id', 'statuses', 'projects',
+            'modules', 'priorities', 'types', 'privacies' ));
+
+    }
+
+    /**
+     * Create by module
+     */
+    public function create_by_module( $module_id = null ){
+        $project_id = Module::where('id',$module_id)->pluck('project_id')[0];
+        return $this->create( $project_id, $module_id );
     }
 
     /**
@@ -36,7 +72,11 @@ class ticketController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $ticket = Ticket::create($request->all());
+        $ticket->user()->associate(get_current_user_id());
+        $ticket->save();
+
+        return redirect()->route('admin.tickets.index');
     }
 
     /**
@@ -47,7 +87,8 @@ class ticketController extends Controller
      */
     public function show($id)
     {
-        //
+        $ticket = Ticket::find($id);
+        return view('admin.ticket.single',compact('ticket'));
     }
 
     /**
@@ -58,7 +99,17 @@ class ticketController extends Controller
      */
     public function edit($id)
     {
-        //
+        $ticket = Ticket::find($id);
+        $statuses = common_stuff::get_status_options();
+        $priorities = common_stuff::get_priority_options();
+        $types = ticket_stuff::get_type_options();
+        $privacies = ticket_stuff::get_privacy_options();
+
+        $projects = array('') + Project::lists('title','id')->toArray();
+        $modules = array('') + Module::lists('title','id')->toArray();
+
+        return view('admin.ticket.edit',compact( 'ticket', 'statuses', 'projects',
+            'modules','tasks', 'priorities', 'types', 'privacies' ) );
     }
 
     /**
@@ -70,7 +121,12 @@ class ticketController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $ticket = Ticket::find($id);
+        $ticket->update($request->all());
+        $ticket->user()->associate(get_current_user_id());
+        $ticket->save();
+
+        return redirect()->route('admin.tickets.edit',$task->id);
     }
 
     /**
@@ -81,6 +137,7 @@ class ticketController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Ticket::destroy($id);
+        return redirect()->route('admin.tickets.index');
     }
 }
