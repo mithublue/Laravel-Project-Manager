@@ -12,7 +12,6 @@
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
 
-    {{--<link href="{{asset('public/bower_components/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">--}}
     <link href="{{asset('public/css/materialize.min.css') }}" rel="stylesheet">
     @yield('header_scripts')
     <!--framework.css-->
@@ -36,12 +35,21 @@
         <!-- /#wrapper -->
 
     <!-- jQuery -->
+    <script src="{!! asset('common/js/vue.js') !!}"></script>
     <script src="{!! asset('admin/bower_components/jquery/dist/jquery.min.js') !!}"></script>
+    <script src="{!! asset('public/js/materialize.min.js') !!}"></script>
+    @yield('footer_scripts')
+    @yield('indi_script')
+    <script>
+          $(".dropdown-button").dropdown();
 
-    <!-- Bootstrap Core JavaScript -->
-    {{--<script src="{!! asset('admin/bower_components/bootstrap/dist/js/bootstrap.min.js') !!}"></script>--}}
-        <script src="{!! asset('public/js/materialize.min.js') !!}"></script>
-        @yield('footer_scripts')
+          $('.datepicker').pickadate({
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 15 // Creates a dropdown of 15 years to control year
+          });
+
+        $('.button-collapse').sideNav('show');
+    </script>
 
     </body>
 

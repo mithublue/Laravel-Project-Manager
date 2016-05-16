@@ -28,4 +28,13 @@ class common_stuff{
             'very_high' => 'Very High'
         );
     }
+
+    /**
+     * errors
+     */
+    public static function get_error_list(){
+        return array(
+            'can_not_delete_projects' => 'You do not have permission to delete this project',
+        );
+    }
 }

@@ -7,6 +7,7 @@ use App\User;
 
 use App\Http\Requests\createUserRequest;
 use Illuminate\Support\Facades\View;
+use Illuminate\Auth\SessionGuard;
 
 class userController extends Controller
 {
@@ -18,6 +19,7 @@ class userController extends Controller
      */
     public function index()
     {
+        if( !current_user_can('can_view_users') ) return view('admin.access_error');
         //
         $users = User::all();
         return view('admin.user.index')
@@ -31,6 +33,8 @@ class userController extends Controller
      */
     public function create()
     {
+        if( !current_user_can('can_create_users') ) return view('admin.access_error');
+
         $roles = Role::lists('name','id');
         return view('admin.user.create')
             ->with('roles',$roles)
@@ -45,6 +49,8 @@ class userController extends Controller
      */
     public function store(createUserRequest $request)
     {
+        if( !current_user_can('can_create_users') ) return view('admin.access_error');
+
         $request->caps = Role::where('id',$request->role_id)->pluck('caps');
 
         User::create(
@@ -53,7 +59,7 @@ class userController extends Controller
                 'last_name' => $request->get('last_name'),
                 'username' => $request->get('username'),
                 'email' => $request->get('email'),
-                'password' => $request->get('password'),
+                'password' => bcrypt($request->get('password')),
                 'caps' => json_encode( $request->get('caps') )
             )
         )->roles()->sync($request->role_id);
@@ -68,6 +74,8 @@ class userController extends Controller
      */
     public function show($id)
     {
+        if( !current_user_can('can_view_user') ) return view('admin.access_error');
+
         $user = User::find($id);
         $user->roles();
         return view('admin.user.single')
@@ -82,8 +90,18 @@ class userController extends Controller
      */
     public function edit($id)
     {
+        if( !current_user_can('can_edit_users') ) return view('admin.access_error');
+
         $user = User::find($id);
         $user->caps = json_decode($user->caps);
+
+        if( !$user->caps ) {
+            $user->caps = array();
+        }
+
+        foreach($user->roles as $role){
+            $user->caps = array_unique( array_merge(json_decode($role->caps),$user->caps) );
+        };
 
         $user->roles = json_decode($user->roles);
         $user->roles = array_map(function($item) {
@@ -107,6 +125,8 @@ class userController extends Controller
      */
     public function update(createUserRequest $request, $id)
     {
+        if( !current_user_can('can_edit_users') ) return view('admin.access_error');
+
         $user = User::find($id);
         $user->update(
             array(
@@ -139,6 +159,8 @@ class userController extends Controller
      */
     public function destroy($id)
     {
+        if( !current_user_can('can_delete_users') ) return view('admin.access_error');
+
         User::destroy($id);
         return redirect()->route('admin.users.index');
     }

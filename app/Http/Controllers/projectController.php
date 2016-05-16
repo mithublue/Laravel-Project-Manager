@@ -9,6 +9,8 @@ use Illuminate\Http\Request;
 use app\custom\common_stuff;
 
 use App\Http\Requests\createProjectRequest;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class projectController extends Controller
 {
@@ -19,7 +21,7 @@ class projectController extends Controller
      */
     public function index()
     {
-        if( !current_user_can('can_view_projects') ) return;
+        if( !have_permission( '', '', 'can_view_projects') ) return view('admin.access_error');
 
         $projects = Project::all();
         return view('admin.project.index')
@@ -33,7 +35,7 @@ class projectController extends Controller
      */
     public function create()
     {
-        if( !current_user_can('can_create_projects') ) return;
+        if( !have_permission( '','', 'can_create_projects') ) return view('admin.access_error');
 
         $clients = Client::lists('name','id');
         $assignees = User::lists('first_name', 'id');
@@ -52,6 +54,8 @@ class projectController extends Controller
      */
     public function store(createProjectRequest $request)
     {
+        if( !have_permission( '','','can_create_projects') ) return view('admin.access_error');
+
         $project = Project::create($request->all());
         $project->assignees()->sync($request->user_id);
         $project->user()->associate(get_current_user_id());
@@ -68,6 +72,8 @@ class projectController extends Controller
      */
     public function show($id)
     {
+        if( !have_permission('','','can_view_project') ) return view('admin.access_error');
+
         $project = Project::find($id);
         return view('admin.project.single')
             ->with('project',$project);
@@ -81,7 +87,7 @@ class projectController extends Controller
      */
     public function edit($id)
     {
-        if( !current_user_can('can_edit_projects') ) return;
+        if( !have_permission('','','can_edit_projects') ) return view('admin.access_error');
 
         $clients = Client::lists('name','id');
         $assignees = User::lists('first_name', 'id');
@@ -110,6 +116,8 @@ class projectController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if( !have_permission('','','can_edit_projects') ) return view('admin.access_error');
+
         $project = Project::find($id);
         $project->update($request->all());
         $project->assignees()->sync($request->user_id);
@@ -127,6 +135,7 @@ class projectController extends Controller
      */
     public function destroy($id)
     {
+        if( !have_permission('','','can_delete_projects') ) return view('admin.access_error');
         Project::destroy($id);
         return redirect()->route('admin.projects.index');
     }

@@ -20,6 +20,8 @@ class ticketController extends Controller
      */
     public function index( $project_id = null )
     {
+        if( !have_permission('','','can_view_tickets') ) return view('admin.access_error');
+
         if(  $project_id ) {
             $tickets = Ticket::where('project_id',$project_id)->get();
         } else {
@@ -30,6 +32,9 @@ class ticketController extends Controller
     }
 
     public function module_tickets( $module_id ) {
+
+        if( !have_permission('','','can_view_tickets') ) return view('admin.access_error');
+
         $tickets = Ticket::where('module_id',$module_id)->get();
         return view( 'admin.ticket.index',compact('tickets') );
     }
@@ -42,6 +47,8 @@ class ticketController extends Controller
      */
     public function create( $project_id = null , $module_id = null )
     {
+        if( !have_permission('','','can_create_tickets') ) return view('admin.access_error');
+
         $statuses = common_stuff::get_status_options();
         $priorities = common_stuff::get_priority_options();
         $types = ticket_stuff::get_type_options();
@@ -60,6 +67,9 @@ class ticketController extends Controller
      * Create by module
      */
     public function create_by_module( $module_id = null ){
+
+        if( !have_permission('','','can_create_tickets') ) return view('admin.access_error');
+
         $project_id = Module::where('id',$module_id)->pluck('project_id')[0];
         return $this->create( $project_id, $module_id );
     }
@@ -72,6 +82,8 @@ class ticketController extends Controller
      */
     public function store(Request $request)
     {
+        if( !have_permission('','','can_create_tickets') ) return view('admin.access_error');
+
         $ticket = Ticket::create($request->all());
         $ticket->user()->associate(get_current_user_id());
         $ticket->save();
@@ -87,6 +99,8 @@ class ticketController extends Controller
      */
     public function show($id)
     {
+        if( !have_permission('','','can_view_ticket') ) return view('admin.access_error');
+
         $ticket = Ticket::find($id);
         return view('admin.ticket.single',compact('ticket'));
     }
@@ -99,6 +113,8 @@ class ticketController extends Controller
      */
     public function edit($id)
     {
+        if( !have_permission('','','can_edit_tickets') ) return view('admin.access_error');
+
         $ticket = Ticket::find($id);
         $statuses = common_stuff::get_status_options();
         $priorities = common_stuff::get_priority_options();
@@ -121,6 +137,8 @@ class ticketController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if( !have_permission('','','can_edit_tickets') ) return view('admin.access_error');
+
         $ticket = Ticket::find($id);
         $ticket->update($request->all());
         $ticket->user()->associate(get_current_user_id());
@@ -137,6 +155,8 @@ class ticketController extends Controller
      */
     public function destroy($id)
     {
+        if( !have_permission('','','can_delete_tickets') ) return view('admin.access_error');
+
         Ticket::destroy($id);
         return redirect()->route('admin.tickets.index');
     }

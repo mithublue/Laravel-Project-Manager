@@ -2,8 +2,411 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2d001c0-cdef-462e-b1b4-cec6750f5514" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap-social\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap-social\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap-social\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap-social\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap-social\bootstrap-social.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap-social\bootstrap-social.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap-social\bootstrap-social.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap-social\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\media.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\media.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\alerts.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\background-variant.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\border-radius.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\center-block.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\clearfix.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\forms.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\gradients.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\grid-framework.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\grid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\hide-text.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\image.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\labels.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\list-group.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\nav-divider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\nav-vertical-align.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\opacity.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\panels.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\progress-bar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\reset-filter.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\reset-text.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\resize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\responsive-visibility.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\size.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\tab-focus.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\table-row.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\text-emphasis.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\text-overflow.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\mixins\vendor-prefixes.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\normalize.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\print.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\print.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\responsive-embed.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\responsive-embed.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\css\variables.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\css\bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\css\bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\grunt\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\grunt\configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\button.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\js\transition.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\nuget\MyGet.ps1" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\nuget\bootstrap.less.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\nuget\bootstrap.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\package.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\admin\bower_components\bootstrap\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\materialize-v0.97.6.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap-social\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap-social\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap-social\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap-social\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap-social\bootstrap-social.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap-social\bootstrap-social.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap-social\bootstrap-social.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap-social\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\media.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\media.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\alerts.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\background-variant.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\border-radius.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\center-block.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\clearfix.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\forms.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\gradients.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\grid-framework.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\grid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\hide-text.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\image.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\labels.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\list-group.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\nav-divider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\nav-vertical-align.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\opacity.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\panels.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\progress-bar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\reset-filter.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\reset-text.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\resize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\responsive-visibility.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\size.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\tab-focus.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\table-row.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\text-emphasis.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\text-overflow.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\mixins\vendor-prefixes.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\normalize.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\print.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\print.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\responsive-embed.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\responsive-embed.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\css\variables.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\css\bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\css\bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\grunt\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\grunt\configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\button.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\js\transition.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\nuget\MyGet.ps1" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\nuget\bootstrap.less.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\nuget\bootstrap.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\package.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\laravel_project_manager\public\public\bower_components\bootstrap\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/module/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/module/_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/project/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/project/_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/role/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/role/_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/task/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/task/_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/tasklist/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/tasklist/_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/ticket/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/ticket/_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/user/_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/user/_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/access_error.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/access_error.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/custom/common-stuffs.php" afterPath="$PROJECT_DIR$/app/custom/common-stuffs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/common.blade.php" afterPath="$PROJECT_DIR$/resources/views/common.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/module/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/module/create.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/default.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/default.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/public/default.blade.php" afterPath="$PROJECT_DIR$/resources/views/public/default.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/module/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/module/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/project/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/project/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/role/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/role/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/task/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/task/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/tasklist/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/tasklist/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/ticket/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/ticket/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/framework.css" afterPath="$PROJECT_DIR$/public/framework.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/custom/functions.php" afterPath="$PROJECT_DIR$/app/custom/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/module/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/module/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/project/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/project/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/role/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/role/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/task/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/task/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/tasklist/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/tasklist/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/ticket/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/ticket/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/moduleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/moduleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/projectController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/projectController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/roleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/roleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/module/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/module/single.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/project/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/project/single.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/role/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/role/single.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/task/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/task/single.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/tasklist/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/tasklist/single.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/ticket/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/ticket/single.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/user/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/user/single.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/taskController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/taskController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/tasklistController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/tasklistController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ticketController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ticketController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/userController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/userController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project_manager.iws" />
@@ -29,41 +432,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/role/single.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.576923" vertical-offset="1419" max-vertical-offset="2380">
-              <caret line="127" column="30" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="765">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/common.blade.php">
+      <file leaf-file-name="tasklistController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/tasklistController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="194" max-vertical-offset="901">
-              <caret line="42" column="77" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="77" />
+            <state vertical-scroll-proportion="-9.038462" vertical-offset="122" max-vertical-offset="2788">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/task/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.185185" vertical-offset="0" max-vertical-offset="578">
-              <caret line="26" column="6" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+            <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="731">
+              <caret line="21" column="142" selection-start-line="21" selection-start-column="142" selection-end-line="21" selection-end-column="142" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/default.blade.php">
+      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/single.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3429395" vertical-offset="510" max-vertical-offset="6953">
-              <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="952">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="408">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ticketController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ticketController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="2754">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="765">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/single.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="697">
+              <caret line="8" column="122" selection-start-line="8" selection-start-column="122" selection-end-line="8" selection-end-column="122" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4473684" vertical-offset="0" max-vertical-offset="684">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -82,57 +535,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/custom/project-stuffs.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_04_20_190138_create_modules_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/projectController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/module/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/module/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/module/_form.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/moduleController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_04_30_062551_create_tasklist_user_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_04_20_190531_create_tasklists_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/tasklist/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Tasklist.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/tasklist/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_04_30_082557_create_module_task_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_04_30_082639_create_task_tasklist_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_04_30_082705_create_task_user_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/tasklistController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/tasklist/_form.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/tasklist/single.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_04_30_084003_create_columns_on_tasks_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/task/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Task.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/task/_form.blade.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/.env" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/database.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_04_20_190335_create_tickets_table.php" />
-        <option value="$PROJECT_DIR$/app/Module.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php" />
-        <option value="$PROJECT_DIR$/app/custom/traits/CustomAuthenticateAndRegistersUsers.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/CustomAuthController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/project/single.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_04_150221_create_columns_on_tickets_table.php" />
-        <option value="$PROJECT_DIR$/app/custom/ticket-stuff.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/custom/common-stuffs.php" />
-        <option value="$PROJECT_DIR$/app/custom/ticket-stuffs.php" />
-        <option value="$PROJECT_DIR$/app/Ticket.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/ticket/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/role/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/role/_form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/ticket/_form.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/ticket/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/ticket/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/task/single.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/taskController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/ticket/single.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ticketController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/module/single.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/CustomAuthController.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/auth.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/RequestGuard.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/TokenGuard.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php" />
+        <option value="$PROJECT_DIR$/resources/views/public/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/public/default.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/common/js/vue.js" />
+        <option value="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/custom/common-stuffs.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/default.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/common.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/project/_form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/access_error.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/userController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/custom/functions.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/projectController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/project/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/project/single.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/moduleController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/module/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/module/single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/role/single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/role/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/roleController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/taskController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/task/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/task/single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/task/_form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/task/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/tasklistController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tasklist/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tasklist/single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tasklist/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ticketController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/ticket/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/ticket/single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/ticket/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -177,7 +630,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +699,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel_project_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasklist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel_project_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel_project_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel_project_manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,36 +858,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel_project_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="traits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel_project_manager-copy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wp4.4.2/wp-content/plugins/mysite-plugins-report" />
     <property name="FullScreen" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
@@ -386,15 +901,15 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -423,13 +938,13 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20454545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20643939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32561132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -455,9 +970,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -481,393 +996,404 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_30_062551_create_tasklist_user_table.php">
+    <entry file="file://$PROJECT_DIR$/public/common/js/vue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46142858" vertical-offset="0" max-vertical-offset="700">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.97054696" vertical-offset="169784" max-vertical-offset="170578">
+          <caret line="10028" column="4" selection-start-line="10028" selection-start-column="4" selection-end-line="10028" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_30_082705_create_task_user_table.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/user/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3526971" vertical-offset="0" max-vertical-offset="723">
-          <caret line="16" column="91" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="459">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_29_055741_create_user_id_col_on_modules_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61134166" vertical-offset="0" max-vertical-offset="723">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6225352" vertical-offset="442" max-vertical-offset="1530">
-          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/moduleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21300139" vertical-offset="356" max-vertical-offset="2227">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="578">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/custom/module-stuffs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/app/custom/project-stuffs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="2312">
-          <caret line="71" column="65" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.692308" vertical-offset="632" max-vertical-offset="1632">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34512022" vertical-offset="5961" max-vertical-offset="13243">
-          <caret line="376" column="13" selection-start-line="376" selection-start-column="13" selection-end-line="376" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="733">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39972338" vertical-offset="714" max-vertical-offset="2142">
-          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0580913" vertical-offset="765" max-vertical-offset="2142">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/app/Role.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3526971" vertical-offset="0" max-vertical-offset="3689">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_30_084003_create_columns_on_tasks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27142859" vertical-offset="201" max-vertical-offset="1105">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_20_190335_create_tickets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="782">
-          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Tasklist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17" vertical-offset="459" max-vertical-offset="1683">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Module.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89880955" vertical-offset="382" max-vertical-offset="1156">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="1.0580913" vertical-offset="0" max-vertical-offset="3842">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Task.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/categoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8118949" vertical-offset="671" max-vertical-offset="1394">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/commentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="749">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1258">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
-          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19428572" vertical-offset="0" max-vertical-offset="1547">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/CustomAuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8888888" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32" vertical-offset="82" max-vertical-offset="782">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/custom/traits/CustomAuthenticateAndRegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04702628" vertical-offset="0" max-vertical-offset="723">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/project/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19298245" vertical-offset="378" max-vertical-offset="1088">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/tasklistController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.037037" vertical-offset="1431" max-vertical-offset="2448">
-          <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/custom/common-stuffs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="612">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/custom/ticket-stuffs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="561">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Ticket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="969">
-          <caret line="9" column="98" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_04_150221_create_columns_on_tickets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="714">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="272">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24853802" vertical-offset="0" max-vertical-offset="684">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.099415205" vertical-offset="0" max-vertical-offset="684">
-          <caret line="4" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="765">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/taskController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.307692" vertical-offset="2183" max-vertical-offset="2890">
-          <caret line="161" column="54" selection-start-line="161" selection-start-column="54" selection-end-line="161" selection-end-column="54" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9615383" vertical-offset="134" max-vertical-offset="867">
-          <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="612">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ticketController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.961538" vertical-offset="1809" max-vertical-offset="2533">
-          <caret line="140" column="56" selection-start-line="140" selection-start-column="56" selection-end-line="140" selection-end-column="56" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/module/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.301273" vertical-offset="42" max-vertical-offset="918">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46541786" vertical-offset="0" max-vertical-offset="694">
-          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.576923" vertical-offset="1419" max-vertical-offset="2380">
-          <caret line="127" column="30" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/public/js/materialize.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/common.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="194" max-vertical-offset="901">
-          <caret line="42" column="77" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="77" />
+        <state vertical-scroll-proportion="-13.074074" vertical-offset="161" max-vertical-offset="1037">
+          <caret line="51" column="13" selection-start-line="42" selection-start-column="4" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="663">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/project/_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1241">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/fileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.185185" vertical-offset="0" max-vertical-offset="578">
-          <caret line="26" column="6" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3429395" vertical-offset="510" max-vertical-offset="6953">
-          <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2330" max-vertical-offset="3043">
+          <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/access_error.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1343">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7728571" vertical-offset="796" max-vertical-offset="2312">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/custom/common-stuffs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="765">
+          <caret line="36" column="93" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/capsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.58285713" vertical-offset="408" max-vertical-offset="1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="629">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/project/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="680">
+          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/project/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="918">
+          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/moduleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.961538" vertical-offset="1612" max-vertical-offset="2465">
+          <caret line="139" column="35" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/module/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.692307" vertical-offset="10" max-vertical-offset="731">
+          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/module/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="710">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/module/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3606789" vertical-offset="323" max-vertical-offset="1037">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/userController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6303387" vertical-offset="1272" max-vertical-offset="2941">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/projectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6973126" vertical-offset="0" max-vertical-offset="2380">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.572843" vertical-offset="0" max-vertical-offset="1989">
+          <caret line="107" column="27" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.230769" vertical-offset="425" max-vertical-offset="2244">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/roleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.96154" vertical-offset="211" max-vertical-offset="2244">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/role/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0" vertical-offset="153" max-vertical-offset="1003">
+          <caret line="35" column="99" selection-start-line="35" selection-start-column="99" selection-end-line="35" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/sessionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/tagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/custom/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="493">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="918">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="867">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21640736" vertical-offset="0" max-vertical-offset="707">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/task/_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024495678" vertical-offset="0" max-vertical-offset="1683">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/taskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.923077" vertical-offset="2480" max-vertical-offset="3213">
+          <caret line="165" column="28" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/tasklistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.038462" vertical-offset="122" max-vertical-offset="2788">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/role/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="765">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="731">
+          <caret line="21" column="142" selection-start-line="21" selection-start-column="142" selection-end-line="21" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="952">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tasklist/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="408">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ticketController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="2754">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="697">
+          <caret line="8" column="122" selection-start-line="8" selection-start-column="122" selection-end-line="8" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="765">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/ticket/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4473684" vertical-offset="0" max-vertical-offset="684">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>

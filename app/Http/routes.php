@@ -12,36 +12,28 @@
 */
 
 // Authentication routes...
-Route::get('login', array(
-    'as' => 'login',
-    'uses' => 'Auth\CustomAuthController@getLogin'
-));
-Route::post('login', array(
-    'as' => 'postLogin',
-    'uses' => 'Auth\CustomAuthController@postLogin'
-));
-Route::get('logout', array(
-    'as' => 'logout',
-    'uses' => 'Auth\AuthController@getLogout'
-));
+Route::get('/login', 'Auth\AuthController@getLogin');
+Route::post('/login', 'Auth\AuthController@postLogin');
+Route::get('/logout', 'Auth\AuthController@getLogout');
 
 // Registration routes...
-Route::get('auth/register', array(
-    'as' => 'register',
-    'uses' => 'Auth\AuthController@getRegister'
-));
-Route::post('auth/register', array(
-    'as' => 'postRegister',
-    'uses' => 'Auth\AuthController@postRegister'
-));
+Route::get('/register', 'Auth\AuthController@getRegister');
+Route::post('/register', 'Auth\AuthController@postRegister');
 
 
+Route::controllers([
+    'password' => 'Auth\PasswordController',
+]);
 
 Route::get('/', function () {
     return view('public.index');
 });
 
-Route::group( array( 'prefix' => 'admin'/*, 'middleware' => 'auth'*/ ),function(){
+Route::group( array( 'prefix' => 'admin', 'middleware' => 'auth' ),function(){
+
+    Route::get('/dashboard', function () {
+        return view('admin.index');
+    });
     Route::resource('projects','projectController' );
 
     /**modules**/

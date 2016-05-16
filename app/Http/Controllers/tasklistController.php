@@ -20,6 +20,8 @@ class tasklistController extends Controller
      */
     public function index( $project_id = null )
     {
+        if( !have_permission('','','can_view_tasklists') ) return view('admin.access_error');
+
         if(  $project_id ) {
             $tasklists = Tasklist::where('project_id',$project_id)->get();
         } else {
@@ -30,6 +32,9 @@ class tasklistController extends Controller
     }
 
     public function module_tasklists( $module_id ) {
+
+        if( !have_permission('','','can_view_tasklists') ) return view('admin.access_error');
+
         $tasklists = Tasklist::where('module_id',$module_id)->get();
         return view( 'admin.tasklist.index',compact('tasklists') );
     }
@@ -41,6 +46,8 @@ class tasklistController extends Controller
      */
     public function create( $project_id = null, $module_id = null )
     {
+        if( !have_permission('','','can_create_tasklists') ) return view('admin.access_error');
+
         $statuses = common_stuff::get_status_options();
 
         $projects = array('') + Project::lists('title','id')->toArray();
@@ -56,6 +63,9 @@ class tasklistController extends Controller
      * create tasklist by module
      */
     public function create_by_module( $module_id ) {
+
+        if( !have_permission('','','can_create_tasklists') ) return view('admin.access_error');
+
         $project_id = Module::where('id',$module_id)->pluck('project_id')[0];
         return $this->create( $project_id, $module_id );
     }
@@ -68,6 +78,8 @@ class tasklistController extends Controller
      */
     public function store(Request $request)
     {
+        if( !have_permission('','','can_create_tasklists') ) return view('admin.access_error');
+
         $taklist = Tasklist::create($request->all());
         $taklist->assigned_users()->sync($request->user_id);
         $taklist->user()->associate(get_current_user_id());
@@ -84,6 +96,8 @@ class tasklistController extends Controller
      */
     public function show($id)
     {
+        if( !have_permission('','','can_view_tasklist') ) return view('admin.access_error');
+
         $tasklist = Tasklist::find($id);
         return view('admin.tasklist.single',compact('tasklist'));
     }
@@ -96,6 +110,8 @@ class tasklistController extends Controller
      */
     public function edit($id)
     {
+        if( !have_permission('','','can_edit_tasklists') ) return view('admin.access_error');
+
         $tasklist = Tasklist::find($id);
 
         $tasklist->assigned_users = json_decode($tasklist->assigned_users);
@@ -122,6 +138,8 @@ class tasklistController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if( !have_permission('','','can_edit_tasklists') ) return view('admin.access_error');
+
         $taklist = Tasklist::find($id);
         $taklist->update($request->all());
         $taklist->assigned_users()->sync($request->user_id);
@@ -139,6 +157,8 @@ class tasklistController extends Controller
      */
     public function destroy($id)
     {
+        if( !have_permission('','','can_delete_tasklists') ) return view('admin.access_error');
+
         Tasklist::destroy($id);
         return redirect()->route('admin.tasklists.index');
     }

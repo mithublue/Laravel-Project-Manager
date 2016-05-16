@@ -19,6 +19,8 @@ class moduleController extends Controller
      */
     public function index( $project_id = null )
     {
+        if( !have_permission('','','can_view_modules') ) return view('admin.access_error');
+
         if( $project_id ) {
             $modules = Module::where('project_id',$project_id)->get();
         }else{
@@ -36,6 +38,8 @@ class moduleController extends Controller
      */
     public function create( $project_id = null )
     {
+        if( !have_permission('','','can_create_modules') ) return view('admin.access_error');
+
         $statuses = common_stuff::get_status_options();
 
         $projects = array('') + Project::lists('title','id')->toArray();
@@ -54,6 +58,8 @@ class moduleController extends Controller
      */
     public function store(Request $request)
     {
+        if( !have_permission('','','can_create_projects') ) return view('admin.access_error');
+
         $module = Module::create($request->all());
         $module->assigned_users()->sync($request->user_id);
         $module->user()->associate(get_current_user_id());
@@ -70,6 +76,8 @@ class moduleController extends Controller
      */
     public function show($id)
     {
+        if( !have_permission('','','can_view_module') ) return view('admin.access_error');
+
         $module = Module::find($id);
         return view( 'admin.module.single', compact('module'));
     }
@@ -82,6 +90,8 @@ class moduleController extends Controller
      */
     public function edit($id)
     {
+        if( !have_permission('','','can_edit_modules') ) return view('admin.access_error');
+
         $module = Module::find($id);
 
         $statuses = common_stuff::get_status_options();
@@ -108,6 +118,8 @@ class moduleController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if( !have_permission('','','can_edit_projects') ) return view('admin.access_error');
+
         $module = Module::find($id);
         $module ->update($request->all());
         $module->assigned_users()->sync($request->user_id);
@@ -125,6 +137,8 @@ class moduleController extends Controller
      */
     public function destroy($id)
     {
+        if( !have_permission('','','can_delete_modules') ) return view('admin.access_error');
+
         Module::destroy($id);
         return redirect()->route('admin.modules.index');
     }

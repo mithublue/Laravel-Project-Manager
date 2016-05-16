@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('common')
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="{{asset('admin/bower_components/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+@section('header_scripts')
 
     <!-- MetisMenu CSS -->
     <link href="{!! asset('admin/bower_components/metisMenu/dist/metisMenu.min.css') !!}" rel="stylesheet">
@@ -28,355 +16,136 @@
 
     <!-- Custom Fonts -->
     <link href="{!! asset('admin/bower_components/font-awesome/css/font-awesome.min.css') !!}" rel="stylesheet" type="text/css">
+@stop
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <div id="wrapper">
-
+@section('site_content')
+<!-- Dropdown Structure -->
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
-            </div>
+        <nav class="blue-grey">
             <!-- /.navbar-header -->
-
-            <ul class="nav navbar-top-links navbar-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-messages">
+            <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Krypton</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a></li>
                         <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>John Smith</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>Read All Messages</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-messages -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-tasks">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 1</strong>
-                                        <span class="pull-right text-muted">40% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                            <span class="sr-only">40% Complete (success)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 2</strong>
-                                        <span class="pull-right text-muted">20% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                            <span class="sr-only">20% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 3</strong>
-                                        <span class="pull-right text-muted">60% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            <span class="sr-only">60% Complete (warning)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Task 4</strong>
-                                        <span class="pull-right text-muted">80% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            <span class="sr-only">80% Complete (danger)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>See All Tasks</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-tasks -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-alerts">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small">12 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>See All Alerts</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-alerts -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-                <!-- /.dropdown -->
-            </ul>
-            <!-- /.navbar-top-links -->
-
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
-                            <div class="input-group custom-search-form">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        <li><a href="">Login</a></li>
-                        <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a class="dropdown-button" data-activates="project_dropdown" href="{{ route('admin.projects.index') }}"><i class="fa fa-adn fa-fw"></i> Projects</a>
+                            <ul id="project_dropdown" class="dropdown-content">
+                                <li><a href="{{ route('admin.projects.index') }}">All Projects</a></li>
                                 <li>
-                                    <a href="flot.html">Flot Charts</a>
-                                </li>
-                                <li>
-                                    <a href="morris.html">Morris.js Charts</a>
+                                    <a href="{{ route('admin.projects.create') }}">Add New Project</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
+                        {{--tasklists--}}
                         <li>
-                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
-                        </li>
-                        <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a class="dropdown-button" data-activates="tasklist_dropdown"  href="{{ route('admin.tasklists.index') }}"><i class="fa fa-list fa-fw"></i> Tasklists</a>
+                            <ul id="tasklist_dropdown" class="dropdown-content">
                                 <li>
-                                    <a href="panels-wells.html">Panels and Wells</a>
+                                    <a href="{{ route('admin.tasklists.index') }}">All Tasklists</a>
                                 </li>
                                 <li>
-                                    <a href="buttons.html">Buttons</a>
-                                </li>
-                                <li>
-                                    <a href="notifications.html">Notifications</a>
-                                </li>
-                                <li>
-                                    <a href="typography.html">Typography</a>
-                                </li>
-                                <li>
-                                    <a href="icons.html"> Icons</a>
-                                </li>
-                                <li>
-                                    <a href="grid.html">Grid</a>
+                                    <a href="{{ route('admin.tasklists.create') }}">Add New Tasklist</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a class="dropdown-button" data-activates="task_dropdown"   href="{{ route('admin.tasks.index') }}"><i class="fa fa-tasks fa-fw"></i> Tasks</a>
+                            <ul id="task_dropdown" class="dropdown-content">
                                 <li>
-                                    <a href="#">Second Level Item</a>
+                                    <a href="{{ route('admin.tasks.index') }}">All Tasks</a>
                                 </li>
                                 <li>
-                                    <a href="#">Second Level Item</a>
-                                </li>
-                                <li>
-                                    <a href="#">Third Level <span class="fa arrow"></span></a>
-                                    <ul class="nav nav-third-level">
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Third Level Item</a>
-                                        </li>
-                                    </ul>
-                                    <!-- /.nav-third-level -->
+                                    <a href="{{ route( 'admin.tasks.create' ) }}">Add New Task</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a class="dropdown-button" data-activates="comment_dropdown"   href="{{ route('admin.comments.index') }}"><i class="fa fa-comment fa-fw"></i> Comments</a>
+                            <ul id="comment_dropdown" class="dropdown-content">
                                 <li>
-                                    <a href="blank.html">Blank Page</a>
+                                    <a href="{{ route('admin.comments.index') }}">All Comments</a>
                                 </li>
                                 <li>
-                                    <a href="login.html">Login Page</a>
+                                    <a href="{{ route( 'admin.comments.create' ) }}">Add New Comment</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a class="dropdown-button" data-activates="role_dropdown"   href="{{ route('admin.roles.index') }}"><i class="fa fa-cut fa-fw"></i> Roles</a>
+                            <ul id="role_dropdown" class="dropdown-content">
+                                <li>
+                                    <a href="{{ route('admin.roles.index') }}">All Roles</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route( 'admin.roles.create' ) }}">Add New Role</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-button" data-activates="ticket_dropdown"   href="{{ route('admin.tickets.index') }}"><i class="fa fa-ticket fa-fw"></i> Tickets</a>
+                            <ul id="ticket_dropdown" class="dropdown-content">
+                                <li>
+                                    <a href="{{ route('admin.tickets.index') }}">All Tickets</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route( 'admin.tickets.create' ) }}">Add New Ticket</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-button" data-activates="file_dropdown"   href="{{ route('admin.files.index') }}"><i class="fa fa-file fa-fw"></i> Files</a>
+                            <ul id="file_dropdown" class="dropdown-content">
+                                <li>
+                                    <a href="{{ route('admin.files.index') }}">All Files</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route( 'admin.files.create' ) }}">Add New File</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-button" data-activates="tag_dropdown"   href="{{ route('admin.tags.index') }}"><i class="fa fa-tag fa-fw"></i> Tags</a>
+                            <ul id="tag_dropdown" class="dropdown-content">
+                                <li>
+                                    <a href="{{ route('admin.tags.index') }}">All Tags</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route( 'admin.tags.create' ) }}">Add New Tag</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-button" data-activates="module_dropdown"   href="{{ route('admin.modules.index') }}"><i class="fa fa-magic fa-fw"></i> Modules</a>
+                            <ul id="module_dropdown" class="dropdown-content">
+                                <li>
+                                    <a href="{{ route('admin.modules.index') }}">All Modules</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('admin.modules.create') }}">Add New Module</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-button" data-activates="user_dropdown"   href="{{ route('admin.users.index') }}"><i class="fa fa-user fa-fw"></i> Users</a>
+                            <ul id="user_dropdown" class="dropdown-content">
+                                <li>
+                                    <a href="{{ route('admin.users.index') }}">All Users</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('admin.users.create') }}">Add New User</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
-                </div>
                 <!-- /.sidebar-collapse -->
             </div>
             <!-- /.navbar-static-side -->
         </nav>
 
-        <div id="page-wrapper">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col s12">
                     <h1 class="page-header">Dashboard</h1>
                 </div>
                 <!-- /.col-lg-12 -->
@@ -386,26 +155,18 @@
         </div>
         <!-- /#page-wrapper -->
 
-    </div>
-    <!-- /#wrapper -->
+@stop
 
-    <!-- jQuery -->
-    <script src="{!! asset('admin/bower_components/jquery/dist/jquery.min.js') !!}"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{!! asset('admin/bower_components/bootstrap/dist/js/bootstrap.min.js') !!}"></script>
-
+@section('footer_scripts')
     <!-- Metis Menu Plugin JavaScript -->
     <script src="{!! asset('admin/bower_components/metisMenu/dist/metisMenu.min.js') !!}"></script>
 
     <!-- Morris Charts JavaScript -->
     <script src="{!! asset('admin/bower_components/raphael/raphael-min.js') !!}"></script>
     <script src="{!! asset('admin/bower_components/morrisjs/morris.min.js') !!}"></script>
-    <script src="{!! asset('admin/js/morris-data.js') !!}"></script>
+    {{--<script src="{!! asset('admin/js/morris-data.js') !!}"></script>--}}
 
     <!-- Custom Theme JavaScript -->
     <script src="{!! asset('admin/dist/js/sb-admin-2.js') !!}"></script>
-
-</body>
-
-</html>
+@stop

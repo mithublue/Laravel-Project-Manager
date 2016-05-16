@@ -20,7 +20,7 @@
 .mt50{margin-top: 50px;}
 .mr5{margin-right: 5px;}
 .mr10{margin-right: 10px;}
-.mr15{margin-right: 15px;}
+.mr15{margin-right: 15px !important;}
 .mr20{margin-right: 20px;}
 .mr25{margin-right: 25px;}
 .mr30{margin-right: 30px;}
@@ -48,7 +48,7 @@
 .pt40{padding-top: 40px;}
 .pt45{padding-top: 45px;}
 .pt50{padding-top: 50px;}
-.pb5{padding-top: 5px;}
+.pb5{padding-bottom: 5px;}
 .pb10{padding-bottom: 10px;}
 .pb15{padding-bottom: 15px;}
 .pb20{padding-bottom: 20px;}

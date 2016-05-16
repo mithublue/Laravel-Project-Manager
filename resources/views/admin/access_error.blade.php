@@ -1,7 +1,11 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: mithu_000
- * Date: 5/15/2016
- * Time: 8:51 PM
- */ 
+@extends('admin.default')
+
+@section('error')
+    <div class="col s12">
+        <div class="card">
+            <div class="card-title red white-text center">
+                You don't have permission to access this page !
+            </div>
+        </div>
+    </div>
+@stop

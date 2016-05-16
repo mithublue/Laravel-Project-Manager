@@ -23,6 +23,7 @@ class roleController extends Controller
      */
     public function index()
     {
+        if( !have_permission('','','can_view_roles') ) return view('admin.access_error');
         //
         $roles = Role::all();
         return view('admin.role.index')
@@ -36,6 +37,8 @@ class roleController extends Controller
      */
     public function create()
     {
+        if( !have_permission('','','can_create_roles') ) return view('admin.access_error');
+
         return view('admin.role.create')
             ->with('caps',$this->caps);
     }
@@ -48,6 +51,8 @@ class roleController extends Controller
      */
     public function store(createRoleRequest $request)
     {
+        if( !have_permission('','','can_create_roles') ) return view('admin.access_error');
+
         Role::create(array(
             'name' => $request->get('name'),
             'caps' => json_encode($request->get('caps'))
@@ -64,7 +69,10 @@ class roleController extends Controller
      */
     public function show($id)
     {
+        if( !have_permission('','','can_view_role') ) return view('admin.access_error');
+
         $role = Role::find($id);
+        $role->caps = json_decode($role->caps)?json_decode($role->caps):array();
         return view('admin.role.single')
             ->with('role',$role);
     }
@@ -77,6 +85,8 @@ class roleController extends Controller
      */
     public function edit($id)
     {
+        if( !have_permission('','','can_edit_roles') ) return view('admin.access_error');
+
         $role = Role::find($id);
         $role->caps = json_decode($role->caps);
         return view('admin.role.edit')
@@ -93,6 +103,8 @@ class roleController extends Controller
      */
     public function update(createRoleRequest $request, $id)
     {
+        if( !have_permission('','','can_edit_roles') ) return view('admin.access_error');
+
         $role = Role::find($id);
         $role->update(array(
             'name' => $request->get('name'),
@@ -109,6 +121,8 @@ class roleController extends Controller
      */
     public function destroy($id)
     {
+        if( !have_permission('','','can_delete_roles') ) return view('admin.access_error');
+
         Role::destroy($id);
         return redirect()->route('admin.roles.index');
     }
