@@ -22,13 +22,20 @@ class tasklistController extends Controller
     {
         if( !have_permission('','','can_view_tasklists') ) return view('admin.access_error');
 
+        $projects = '';
+        $tasklists = '';
+
         if(  $project_id ) {
             $tasklists = Tasklist::where('project_id',$project_id)->get();
         } else {
-            $tasklists = Tasklist::all();
+            $projects = Project::all();
+        }
+        if( !empty( $projects ) ) {
+            return view( 'admin.tasklist.index-project',compact( 'projects') );
+        } elseif( !empty( $tasklists ) ) {
+            return view( 'admin.tasklist.index',compact('tasklists') );
         }
 
-        return view( 'admin.tasklist.index',compact('tasklists') );
     }
 
     public function module_tasklists( $module_id ) {

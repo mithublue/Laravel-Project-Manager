@@ -1,6 +1,7 @@
 @extends('admin.default')
 @section('content')
-<div class="row">
+
+  <div class="row">
         <div class="col s12">
             <div class="row">
                 @foreach( $tasklists as $tasklist )

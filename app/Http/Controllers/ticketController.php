@@ -22,13 +22,21 @@ class ticketController extends Controller
     {
         if( !have_permission('','','can_view_tickets') ) return view('admin.access_error');
 
+        $projects = '';
+        $tickets = '';
+
         if(  $project_id ) {
             $tickets = Ticket::where('project_id',$project_id)->get();
         } else {
-            $tickets = Ticket::all();
+            $projects = Project::all();
         }
 
-        return view( 'admin.ticket.index',compact('tickets') );
+        if( !empty( $projects ) ) {
+            return view( 'admin.ticket.index-project',compact( 'projects') );
+        } elseif( !empty( $tickets ) ) {
+            return view( 'admin.ticket.index',compact('tickets') );
+        }
+
     }
 
     public function module_tickets( $module_id ) {

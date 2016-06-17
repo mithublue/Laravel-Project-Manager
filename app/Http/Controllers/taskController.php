@@ -22,13 +22,22 @@ class taskController extends Controller
     {
         if( !have_permission('','','can_view_tasks') ) return view('admin.access_error');
 
+        $projects = '';
+        $tasks = '';
+
         if(  $project_id ) {
             $tasks = Task::where('project_id',$project_id)->get();
         } else {
-            $tasks = Task::all();
+            $projects = Project::all();
         }
 
-        return view( 'admin.task.index',compact('tasks') );
+        if( !empty( $projects ) ) {
+            return view( 'admin.task.index-project',compact( 'projects') );
+        }
+        if( !empty( $tasks ) ) {
+            return view( 'admin.task.index',compact('tasks' ) );
+        }
+
     }
 
     public function module_tasks( $module_id ) {

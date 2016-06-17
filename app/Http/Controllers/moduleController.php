@@ -21,13 +21,21 @@ class moduleController extends Controller
     {
         if( !have_permission('','','can_view_modules') ) return view('admin.access_error');
 
+        $projects = '';
+        $modules = '';
+
         if( $project_id ) {
             $modules = Module::where('project_id',$project_id)->get();
         }else{
-            $modules = Module::all();
+            $projects = Project::all();
         }
 
-        return view('admin.module.index',compact('project_id','modules'));
+        if( !empty( $projects ) ) {
+            return view( 'admin.module.index-project',compact( 'projects') );
+        } elseif( !empty( $modules ) ) {
+            return view('admin.module.index',compact('project_id','modules'));
+        }
+
     }
 
 

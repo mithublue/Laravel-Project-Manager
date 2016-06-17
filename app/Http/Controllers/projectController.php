@@ -91,12 +91,11 @@ class projectController extends Controller
 
         $clients = Client::lists('name','id');
         $assignees = User::lists('first_name', 'id');
-        $project = Project::find($id);
+        $project = Project::with('assignees')->find($id);
 
-        $project->assignees = json_decode($project->assignees);
-        $project->assignees = array_map(function($item) {
-            return $item->id;
-        }, $project->assignees);
+        $project->assignees = array_map(function($item){
+            return $item['id'];
+        }, $project->assignees->toArray());
 
         $statuses = common_stuff::get_status_options();
 
