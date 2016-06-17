@@ -25,15 +25,13 @@ Route::controllers([
     'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('/', function () {
-    return view('public.index');
-});
+Route::get('/', ['middleware' => 'auth', function(){
+    return redirect()->route('admin.projects.index');
+} ]);
 
 Route::group( array( 'prefix' => 'admin', 'middleware' => 'auth' ),function(){
-
-    Route::get('/dashboard', function () {
-        return view('admin.index');
-    });
+    Route::get('/', 'projectController@index');
+    Route::get('/dashboard', 'projectController@index');
     Route::resource('projects','projectController' );
 
     /**modules**/
