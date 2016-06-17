@@ -5,7 +5,7 @@ Laravel Project Manager is a free , open source app that is easily extendable an
 ## How to Setup
 
 1) Clone or download the zip file and unzip it.
-2) Enter the folder and run following command ( composer update )
+2) Enter the folder and run following command [code]composer update[/code]
 3) Run the command to generate the app key ( php artisan key:generate )
 4) make a copy of .env.example and rename it to '.env' . Provide here the database credentials.
 5) Create the database in database server with the name provided in .env file
