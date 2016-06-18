@@ -3,7 +3,7 @@
 Laravel Project Manager is a free , open source app that is easily extendable and customizatble, feel free to use it the way you want. ( Credit is appreciated though. )
 
 ![Project](https://raw.githubusercontent.com/mithublue/Laravel-Project-Manager/master/project_manager.png)
-![Project](https://raw.githubusercontent.com/mithublue/Laravel-Project-Manager/master/task.png)
+![Task](https://raw.githubusercontent.com/mithublue/Laravel-Project-Manager/master/task.png)
 
 ## How to Setup
 
