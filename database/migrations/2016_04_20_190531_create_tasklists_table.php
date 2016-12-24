@@ -17,13 +17,13 @@ class CreateTasklistsTable extends Migration
             $table->string('title');
             $table->text('description');
 
-            $table->integer('user_id');
+            $table->integer('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users');
 
-            $table->integer('project_id');
+            $table->integer('project_id')->unsigned()->index();;
             $table->foreign('project_id')->references('id')->on('projects');
 
-            $table->integer('module_id');
+            $table->integer('module_id')->unsigned()->index();
             $table->foreign('module_id')->references('id')->on('modules');
 
             $table->dateTime('start_date');
